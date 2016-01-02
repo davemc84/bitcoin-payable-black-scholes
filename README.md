@@ -4,7 +4,7 @@ This code creates a Bitcoin-payable endpoint that returns in JSON format the imp
 
 On the 21.co Bitcoin network, this can be accessed by entering the following into the command line:
 
-```21  buy --maxprice 100 url 'http://10.244.190.107:5000/bs?price=35&strike=40&time=0.25&rate=0.03&vol=0.4'```
+```21  buy --maxprice 10 url 'http://10.244.190.107:5000/bs?price=35&strike=40&time=0.25&rate=0.03&vol=0.4'```
 
 * price  = current stock price
 * strike = strike price
