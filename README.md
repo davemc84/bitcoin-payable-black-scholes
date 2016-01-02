@@ -1,7 +1,6 @@
-# bitcoin-payable-black-scholes
-Simple Bitcoin Payable Black-Scholes Calculator
+# Simple Bitcoin Payable Black-Scholes Calculator
 
-This endpoint returns in JSON format the implied call and put price of an option as well as the major associated "Greeks."  This is a basic Black-Scholes formula, so returns infomration assuming a European-style option on a stock that is assumed to not pay a dividend.
+This code creates a Bitcoin-payable endpoint that returns in JSON format the implied call and put price of an option as well as the major associated "Greeks."  This is a basic Black-Scholes formula, so returns infomration assuming a European-style option on a stock that is assumed to not pay a dividend.
 
 On the 21.co Bitcoin network, this can be accessed by entering the following into the command line:
 
